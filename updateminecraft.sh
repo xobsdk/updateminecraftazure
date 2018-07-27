@@ -1,9 +1,9 @@
 #!/bin/bash
 # Minecraft server upgrade script for Azure
-# $1 = new version (e.g. 1.10.2)
+# fixed for 1.13
 # server values
 minecraft_server_path=/srv/minecraft_server
-server_jar=minecraft_server.$1.jar
+server_jar=server.jar
 SERVER_JAR_URL=https://launcher.mojang.com/mc/game/1.13/server/d0caafb8438ebd206f99930cfaecfa6c9a13dca0/server.jar
 
 # adjust memory usage depending on VM size
